@@ -1,0 +1,28 @@
+{
+  "name": "@joe-lloyd/phaser-template",
+  "version": "1.0.0",
+  "repository": "git@github.com:joe-lloyd/phaser-template.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "phaser": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@typescript-eslint/eslint-plugin": "4.2.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-typescript": "^11.0.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2",
+    "sass": "^1.26.10",
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {}
+}
