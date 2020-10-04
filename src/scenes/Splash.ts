@@ -7,11 +7,11 @@ class Splash extends Scene {
     });
   }
 
-  update(time: number, delta: number) {
+  update(time: number, delta: number): void {
     super.update(time, delta);
   }
 
-  create() {
+  create(): void {
     this.add.text(this.scale.width / 2, this.scale.height / 2, 'Play Game!', { fill: '#0f0', align: 'center' })
       .setOrigin(0.5, 0.5)
       .setInteractive()

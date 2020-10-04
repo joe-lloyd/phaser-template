@@ -7,15 +7,15 @@ class Game extends Scene {
     });
   }
 
-  preload() {
+  preload(): void {
 
   }
 
-  create() {
+  create(): void {
 
   }
 
-  update() {
+  update(): void {
 
   }
 }
