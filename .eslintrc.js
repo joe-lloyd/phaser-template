@@ -8,4 +8,5 @@ module.exports = {
     project: './tsconfig.json',
     createDefaultProgram: true,
   },
+  settings: { 'import/resolver': { node: {} } },
 };
